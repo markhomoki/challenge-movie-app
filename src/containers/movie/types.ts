@@ -13,7 +13,7 @@ export interface MovieType {
 	overview: string,
 	vote_average: number,
 	release_date: string,
-	genres: GenreType[]
+	genres: GenreType[],
 };
 
 export interface MovieState {

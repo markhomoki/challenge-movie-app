@@ -28,7 +28,6 @@ export default class ContentLoader extends React.PureComponent<Props> {
 		} = this.props;
 		const hasData = _.isArray(data) ? data.length > 0 : !!data;
 
-
 		if (!isLoading || (!forceRefresh && hasData)) {
 			if (hasData) {
 				return this.props.children;

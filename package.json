@@ -21,7 +21,6 @@
         "reselect": "^4.0.0"
     },
     "devDependencies": {
-        "@babel/plugin-proposal-decorators": "^7.2.0",
         "@types/jest": "23.3.10",
         "@types/lodash": "^4.14.118",
         "@types/react": "16.7.13",
